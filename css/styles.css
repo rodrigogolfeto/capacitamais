@@ -130,8 +130,20 @@ a:hover { text-decoration: none; }
   background-color: #66C6DE;
 }
 
+.bg-tr {
+  background-color: #304391;
+}
+
 .text-color-evento {
   color: #384D9C;
+}
+
+.text-color-programacao {
+  color: #F07F38;
+}
+
+.text-color-horario {
+  color: #66C6DE;
 }
 
 .vertical-line {
@@ -146,6 +158,22 @@ a:hover { text-decoration: none; }
 .bg-color-footer {
   background-color: #384D9C;
 }
+
+.divisoria {
+  height: 2px !important;
+  width:215px;
+  color: #66C6DE;
+}
+
+.titulo-programacao {
+  font-size: 50px;
+}
+
+.table-programacao {
+  width: 500px;
+}
+
+
 
 
 @media (max-width: 575px) {
@@ -212,6 +240,14 @@ a:hover { text-decoration: none; }
     margin-bottom: 20px;
   }
 
+  .divisoria {
+    margin-top: 40px;
+  }
+
+  .table-programacao {
+    width: 220px;
+  }
+
 }
 
 @media (min-width: 991px) {
@@ -222,5 +258,12 @@ a:hover { text-decoration: none; }
 
   .realizacao {
     font-size: 16px !important;
+  }
+
+  .divisoria {
+    height: 2px !important;
+    width:500px;
+    color: #66C6DE;
+    margin-top: 40px;
   }
 }
