@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
 
-:root {   
+:root {
   --header-home-height: 390px;
   --header-height: 315px;
   --background-color-base: #ffd5af;
@@ -20,17 +20,17 @@
 
 body { font-size: 16px;font-family: '', sans-serif;-webkit-font-smoothing: antialiased !important;overflow-y: scroll;overflow-x: hidden !important;color: var(--color-base); }
 
-img { display: block;max-width: 100%;height: auto; } 
-select { -webkit-appearance: none;-moz-appearance: none;appearance: none;cursor:pointer; }    
+img { display: block;max-width: 100%;height: auto; }
+select { -webkit-appearance: none;-moz-appearance: none;appearance: none;cursor:pointer; }
 input { -webkit-appearance: none;-moz-appearance: none;appearance: none;cursor:pointer;border: 0;background: transparent; }
 textarea { -webkit-appearance: none;-moz-appearance: none;appearance: none;cursor:pointer;border: 0;background: transparent;resize: none; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: bold; } 
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
 a { text-decoration: none;transition: all .2s ease; }
 a:hover { text-decoration: none; }
 
-#root { position: relative;min-height: 100vh;padding-bottom: var(--footer-height); } 
+#root { position: relative;min-height: 100vh;padding-bottom: var(--footer-height); }
 
 .esconde { position: absolute;top: -99999px;left: 0;font-size: 1px; }
 
@@ -39,7 +39,7 @@ a:hover { text-decoration: none; }
 .font-10 { font-size:0.5675rem !important; }
 .font-11 { font-size:0.6875rem !important; }
 .font-12 { font-size:0.7825rem !important; }
-.font-13 { font-size:0.8125rem !important; } 
+.font-13 { font-size:0.8125rem !important; }
 .font-14 { font-size:0.8750rem !important; }
 .font-16 { font-size:1.0000rem !important; }
 .font-18 { font-size:1.1250rem !important; }
@@ -70,12 +70,12 @@ a:hover { text-decoration: none; }
 .scale-170 { transform:scale(1.7) !important; }
 .scale-180 { transform:scale(1.8) !important; }
 
-@media (min-width: 768px) { /* COL MD */		
+@media (min-width: 768px) { /* COL MD */
 
 .font-md-10 { font-size:0.5675rem !important; }
 .font-md-11 { font-size:0.6875rem !important; }
 .font-md-12 { font-size:0.7825rem !important; }
-.font-md-13 { font-size:0.8125rem !important; } 
+.font-md-13 { font-size:0.8125rem !important; }
 .font-md-14 { font-size:0.8750rem !important; }
 .font-md-16 { font-size:1.0000rem !important; }
 .font-md-18 { font-size:1.1250rem !important; }
@@ -87,12 +87,12 @@ a:hover { text-decoration: none; }
 .font-md-40 { font-size:2.5000rem !important; }
 }
 
-@media (min-width: 992px) { /* COL LG */		
+@media (min-width: 992px) { /* COL LG */
 
 .font-lg-10 { font-size:0.5675rem !important; }
 .font-lg-11 { font-size:0.6875rem !important; }
 .font-lg-12 { font-size:0.7825rem !important; }
-.font-lg-13 { font-size:0.8125rem !important; } 
+.font-lg-13 { font-size:0.8125rem !important; }
 .font-lg-14 { font-size:0.8750rem !important; }
 .font-lg-16 { font-size:1.0000rem !important; }
 .font-lg-18 { font-size:1.1250rem !important; }
@@ -104,12 +104,12 @@ a:hover { text-decoration: none; }
 .font-lg-40 { font-size:2.5000rem !important; }
 }
 
-@media (min-width: 1200px){ /* COL XL */	
+@media (min-width: 1200px){ /* COL XL */
 
 .font-xl-10 { font-size:0.5675rem !important; }
 .font-xl-11 { font-size:0.6875rem !important; }
 .font-xl-12 { font-size:0.7825rem !important; }
-.font-xl-13 { font-size:0.8125rem !important; } 
+.font-xl-13 { font-size:0.8125rem !important; }
 .font-xl-14 { font-size:0.8750rem !important; }
 .font-xl-16 { font-size:1.0000rem !important; }
 .font-xl-18 { font-size:1.1250rem !important; }
@@ -120,4 +120,39 @@ a:hover { text-decoration: none; }
 .font-xl-32 { font-size:2.0000rem !important; }
 .font-xl-40 { font-size:2.5000rem !important; }
 
+}
+
+.bg-topo {
+  background-color: #F07F38 !important;
+}
+
+.vertical-line {
+  border-left: 1px solid rgb(255, 255, 255); /* ou border-right para uma linha vertical à direita */
+  height: 8px; /* altura da linha */
+}
+
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
+
+
+@media (max-width: 991px) {
+  .vertical-line {
+    display: none;
+  }
+
+  .nav-item {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .div-navbar {
+    padding-left: 0px !important;
+    margin-top: 25px;
+  }
+
+  .logo-img {
+    width: 252px;
+  }
 }
