@@ -135,9 +135,38 @@ a:hover { text-decoration: none; }
   letter-spacing: 2px;
 }
 
+.bg-color-footer {
+  background-color: #384D9C;
+}
 
 
-@media (max-width: 991px) {
+@media (max-width: 575px) {
+
+  .logo-img-rodape {
+    width: 350px;
+  }
+
+  .realizacao {
+    font-size: 10px;
+  }
+
+ }
+
+
+@media (min-width: 576px) {
+  .logo-img-rodape {
+    width: 410px;
+  }
+
+  .realizacao {
+    font-size: 12px;
+  }
+
+ }
+
+
+
+@media (max-width: 992px) {
   .vertical-line {
     display: none;
   }
@@ -152,7 +181,25 @@ a:hover { text-decoration: none; }
     margin-top: 25px;
   }
 
-  .logo-img {
-    width: 252px;
+  .logo-img-topo {
+    width: 314px;
+  }
+
+  .informacao-rodape {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
+
+@media (min-width: 991px) {
+
+  .logo-img-rodape {
+    width: 750px;
+  }
+
+  .realizacao {
+    font-size: 16px !important;
   }
 }
