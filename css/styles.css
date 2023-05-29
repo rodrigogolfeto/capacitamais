@@ -126,6 +126,14 @@ a:hover { text-decoration: none; }
   background-color: #F07F38 !important;
 }
 
+.bg-section-o-evento {
+  background-color: #66C6DE;
+}
+
+.text-color-evento {
+  color: #384D9C;
+}
+
 .vertical-line {
   border-left: 1px solid rgb(255, 255, 255); /* ou border-right para uma linha vertical à direita */
   height: 8px; /* altura da linha */
@@ -190,6 +198,19 @@ a:hover { text-decoration: none; }
     flex-direction: column;
   }
 
+  .section-evento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-titulo-o-evento {
+    margin-right: 0px !important;
+  }
+
+  .titulo-o-evento {
+    margin-bottom: 20px;
+  }
 
 }
 
