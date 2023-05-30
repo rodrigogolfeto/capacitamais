@@ -8,6 +8,13 @@
 .font-kanit { font-family: 'Kanit', sans-serif; }
 .font-roboto { font-family: 'Roboto', sans-serif; }
 
+.font-weight-400 { font-weight:400 !important; }
+.font-weight-500 { font-weight:500 !important; }
+.font-weight-600 { font-weight:600 !important; }
+.font-weight-700 { font-weight:700 !important; }
+.font-weight-800 { font-weight:800 !important; }
+.font-weight-900 { font-weight:900 !important; }
+
 body { font-size: 16px;font-family: '', sans-serif;-webkit-font-smoothing: antialiased !important;overflow-y: scroll;overflow-x: hidden !important;color: var(--color-base); }
 
 img { display: block;max-width: 100%;height: auto; }
@@ -33,6 +40,7 @@ a:hover { text-decoration: none; }
 .bg-384d9c { background-color: #384d9c !important; }
 .bg-66c6de { background-color: #66c6de !important; }
 .bg-304391 { background-color: #304391 !important; }
+.bg-ffffff { background-color: #ffffff !important; }
 
 .font-10 { font-size: 0.5675rem !important; }
 .font-11 { font-size: 0.6875rem !important; }
@@ -40,13 +48,17 @@ a:hover { text-decoration: none; }
 .font-13 { font-size: 0.8125rem !important; }
 .font-14 { font-size: 0.8750rem !important; }
 .font-16 { font-size: 1.0000rem !important; }
+.font-17 { font-size: 1.0625rem !important; }
 .font-18 { font-size: 1.1250rem !important; }
 .font-20 { font-size: 1.2500rem !important; }
 .font-22 { font-size: 1.3000rem !important; }
 .font-24 { font-size: 1.5000rem !important; }
 .font-28 { font-size: 1.7500rem !important; }
 .font-32 { font-size: 2.0000rem !important; }
+.font-35 { font-size: 2.1875rem !important; }
 .font-40 { font-size: 2.5000rem !important; }
+.font-50 { font-size: 3.125rem !important; }
+.font-60 { font-size: 3.75rem !important; }
 
 .line-height-100 { line-height: 100% !important; }
 .line-height-110 { line-height: 110% !important; }
@@ -68,17 +80,44 @@ a:hover { text-decoration: none; }
 .scale-170 { transform: scale(1.7) !important; }
 .scale-180 { transform: scale(1.8) !important; }
 
-.ls-2 { letter-spacing: 2px; }
+.ls-1 { letter-spacing: 0.0625rem !important; }
+.ls-2 { letter-spacing: 0.125rem !important; }
+.ls-3 { letter-spacing: 0.1875rem !important; }
+.ls-4 { letter-spacing: 0.25rem !important; }
+.ls-5 { letter-spacing: 0.3125rem !important; }
+.ls-10 { letter-spacing: 0.625rem !important; }
 
+.navbar-brand { width:100%;max-width:250px; }
+.menu-division { width:2px;height:12px; }
+.navbar-dark .navbar-toggler-icon { background-image: url('../images/icon-menu.svg') !important; }
 
+.banner { height: 300px;background-image: url('../images/banner.png');background-size: cover;background-repeat: no-repeat;background-position: center center; }
 
-.menu-division { border-left: 1px solid rgb(255, 255, 255);height: 8px; }
+.footer-brand { width:100%;max-width:300px; }
 
-.banner { background-image: url('../images/BANNER.png');background-size: cover;background-repeat: no-repeat;background-position: center center;height: 809px; }
+@media (min-width: 576px) {
+  /* COL SM */
+  .font-sm-10 { font-size: 0.5675rem !important; }
+  .font-sm-11 { font-size: 0.6875rem !important; }
+  .font-sm-12 { font-size: 0.7825rem !important; }
+  .font-sm-13 { font-size: 0.8125rem !important; }
+  .font-sm-14 { font-size: 0.8750rem !important; }
+  .font-sm-16 { font-size: 1.0000rem !important; }
+  .font-sm-17 { font-size: 1.0625rem !important; }
+  .font-sm-18 { font-size: 1.1250rem !important; }
+  .font-sm-20 { font-size: 1.2500rem !important; }
+  .font-sm-22 { font-size: 1.3000rem !important; }
+  .font-sm-24 { font-size: 1.5000rem !important; }
+  .font-sm-28 { font-size: 1.7500rem !important; }
+  .font-sm-32 { font-size: 2.0000rem !important; }
+  .font-sm-35 { font-size: 2.1875rem !important; }
+  .font-sm-40 { font-size: 2.5000rem !important; }
+  .font-sm-50 { font-size: 3.125rem !important; }
+  .font-sm-60 { font-size: 3.75rem !important; }
 
-.events-division { height: 2px !important;width: 215px; }
+  .banner { height: 400px; }
 
-
+}
 
 @media (min-width: 768px) {
   /* COL MD */
@@ -88,14 +127,22 @@ a:hover { text-decoration: none; }
   .font-md-13 { font-size: 0.8125rem !important; }
   .font-md-14 { font-size: 0.8750rem !important; }
   .font-md-16 { font-size: 1.0000rem !important; }
+  .font-md-17 { font-size: 1.0625rem !important; }
   .font-md-18 { font-size: 1.1250rem !important; }
   .font-md-20 { font-size: 1.2500rem !important; }
   .font-md-22 { font-size: 1.3000rem !important; }
   .font-md-24 { font-size: 1.5000rem !important; }
   .font-md-28 { font-size: 1.7500rem !important; }
   .font-md-32 { font-size: 2.0000rem !important; }
+  .font-md-35 { font-size: 2.1875rem !important; }
   .font-md-40 { font-size: 2.5000rem !important; }
-  .font-md-50 { font-size: 3.1250rem !important; }
+  .font-md-50 { font-size: 3.125rem !important; }
+  .font-md-60 { font-size: 3.75rem !important; }
+
+  .banner { height: 550px; }
+
+  .footer-brand { max-width:533px; }
+
 }
 
 @media (min-width: 992px) {
@@ -106,14 +153,20 @@ a:hover { text-decoration: none; }
   .font-lg-13 { font-size: 0.8125rem !important; }
   .font-lg-14 { font-size: 0.8750rem !important; }
   .font-lg-16 { font-size: 1.0000rem !important; }
+  .font-lg-17 { font-size: 1.0625rem !important; }
   .font-lg-18 { font-size: 1.1250rem !important; }
   .font-lg-20 { font-size: 1.2500rem !important; }
   .font-lg-22 { font-size: 1.3000rem !important; }
   .font-lg-24 { font-size: 1.5000rem !important; }
   .font-lg-28 { font-size: 1.7500rem !important; }
   .font-lg-32 { font-size: 2.0000rem !important; }
+  .font-lg-35 { font-size: 2.1875rem !important; }
   .font-lg-40 { font-size: 2.5000rem !important; }
-  .font-lg-50 { font-size: 3.1250rem !important; }
+  .font-lg-50 { font-size: 3.125rem !important; }
+  .font-lg-60 { font-size: 3.75rem !important; }
+
+  .banner { height: 800px; }
+
 }
 
 @media (min-width: 1200px) {
@@ -124,12 +177,44 @@ a:hover { text-decoration: none; }
   .font-xl-13 { font-size: 0.8125rem !important; }
   .font-xl-14 { font-size: 0.8750rem !important; }
   .font-xl-16 { font-size: 1.0000rem !important; }
+  .font-xl-17 { font-size: 1.0625rem !important; }
   .font-xl-18 { font-size: 1.1250rem !important; }
   .font-xl-20 { font-size: 1.2500rem !important; }
   .font-xl-22 { font-size: 1.3000rem !important; }
   .font-xl-24 { font-size: 1.5000rem !important; }
   .font-xl-28 { font-size: 1.7500rem !important; }
   .font-xl-32 { font-size: 2.0000rem !important; }
+  .font-xl-35 { font-size: 2.1875rem !important; }
   .font-xl-40 { font-size: 2.5000rem !important; }
-  .font-xl-50 { font-size: 3.1250rem !important; }
+  .font-xl-50 { font-size: 3.125rem !important; }
+  .font-xl-60 { font-size: 3.75rem !important; }
+
+  .navbar-brand { max-width:282px; }
+
+  .container,.container-lg,.container-md,.container-sm,.container-xl { max-width:1000px !important; }
+
+}
+
+@media (min-width: 1400px) {
+  /* COL XXL */
+  .font-xxl-10 { font-size: 0.5675rem !important; }
+  .font-xxl-11 { font-size: 0.6875rem !important; }
+  .font-xxl-12 { font-size: 0.7825rem !important; }
+  .font-xxl-13 { font-size: 0.8125rem !important; }
+  .font-xxl-14 { font-size: 0.8750rem !important; }
+  .font-xxl-16 { font-size: 1.0000rem !important; }
+  .font-xxl-17 { font-size: 1.0625rem !important; }
+  .font-xxl-18 { font-size: 1.1250rem !important; }
+  .font-xxl-20 { font-size: 1.2500rem !important; }
+  .font-xxl-22 { font-size: 1.3000rem !important; }
+  .font-xxl-24 { font-size: 1.5000rem !important; }
+  .font-xxl-28 { font-size: 1.7500rem !important; }
+  .font-xxl-32 { font-size: 2.0000rem !important; }
+  .font-xxl-35 { font-size: 2.1875rem !important; }
+  .font-xxl-40 { font-size: 2.5000rem !important; }
+  .font-xxl-50 { font-size: 3.125rem !important; }
+  .font-xxl-60 { font-size: 3.75rem !important; }
+
+  .container,.container-lg,.container-md,.container-sm,.container-xl { max-width:1000px !important; }
+
 }
