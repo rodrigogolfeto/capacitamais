@@ -1,0 +1,4 @@
+Olá, 
+Tenha atenção onde contém a informação "https://tag3sistemas.com.br/capacitamais/", deve ser substituído para o endereço que deseja rodar. Se for rodar local, remova essas informações do HTML para não puxar o CSS e JS do site https://tag3sistemas.com.br/capacitamais/
+Em caso de dúvidas, fico à disposição.
+Rodrigo Golfeto - (67) 99185-8856
