@@ -98,7 +98,7 @@ hr { opacity:1 !important; }
 
 .footer-brand { width:100%;max-width:300px; }
 
-table td { min-width:120px; }
+table tr td:nth-child(1) { width:120px !important; }
 
 div.day-20 { position:relative;z-index:100; }
 div.day-21 { position:relative;z-index:100; }
@@ -137,6 +137,9 @@ div.day-22 > div.container { z-index:10;position:relative; }
   .banner { height: 400px; }
 
   div.day-20 > div.container::after { content:'';position:absolute;display:block;width: 149px;height: 100.89px;background:url("../images/plus.svg") no-repeat center center;background-size:cover;top:0;right:-50px;z-index:100; }
+
+
+  table tr td:nth-child(1) { min-width:195px !important; }
 
 }
 
