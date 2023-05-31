@@ -113,6 +113,12 @@ div.day-22 > div.container { z-index:10;position:relative; }
 
 #como-participar { position:relative;z-index:100; }
 #como-participar > div.container { z-index:10;position:relative; }
+#como-participar iframe { min-height:300px; }
+
+#informacoes svg { width:28px;height:28px; }
+
+.brand-apoio img { height:50px;width:auto; }
+
 
 @media (min-width: 576px) {
   /* COL SM */
@@ -196,6 +202,8 @@ div.day-22 > div.container { z-index:10;position:relative; }
   div.day-22::before { content:'';position:absolute;display:block;width:50vw;height:100%;background:#384D9C;bottom:0;right:0;z-index:1; }
 
   div.day-20 > div.container::after { content:'';position:absolute;display:block;width: 225px;height: 152.36px;background:url("../images/plus.svg") no-repeat center center;background-size:cover;top:0;right:10px;z-index:100; }
+
+  #informacoes svg { width:36px;height:36px; }
 
 }
 
